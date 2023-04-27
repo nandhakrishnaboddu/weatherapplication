@@ -1,0 +1,63 @@
+*{
+    font-family:"sans-serif";
+}
+
+.bg-container{
+    background-image:linear-Gradient(to right,skyblue,white);
+    height:100vh;
+    width:100%;
+    background-size:auto;
+}
+.placecard{
+    background-color:white;
+    text-align:center;
+    border-radius:10px;
+}
+.heading1{
+    color:rgb(12, 53, 115);
+    font-size:30px; 
+    font-weight:bold;
+}
+.city{
+    color:rgb(12, 53, 115);
+    font-size:30px;
+   
+    font-weight:bold;
+}
+.temp{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+}
+.searchcard{
+    background-color:white;
+    padding:15px;
+    border-radius:10px;
+}
+.search{
+  border-color:black;
+  color:black;
+  height:40px;
+  border-radius:5px;
+  border-width:2px;
+  padding:4px;
+  margin-right:10px;
+  
+}
+.button1{
+    color:white;
+    background-color:rgb(12, 53, 115);
+    border-radius:5px;
+    border-width:none;
+    height:40px;
+}
+.image{
+
+    max-height: 250px;
+}
+
+@media screen and (min-width: 100px) {
+    .bg-container {
+      background-color: red!important;
+    }
+  }
